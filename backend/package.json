@@ -1,0 +1,31 @@
+{
+  "name": "slido-lite-backend",
+  "version": "1.0.0",
+  "description": "Slido light for technical interview",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node-pg-migrate"
+  },
+  "author": "M Asfand Shabbir",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "0.0.1-security",
+    "i18n": "^0.15.1",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "mongoose": "^8.0.1",
+    "node-pg-migrate": "^7.9.1",
+    "pg": "^8.15.6",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "uuid": "^9.0.1"
+  }
+}
